@@ -8,4 +8,4 @@ author = "Matt Baker"
 
 Christian, husband, father, geek.
 
-[Resume](../MattBaker_Resume_2019.pdf)
+[Resume](MattBaker_Resume_2019.pdf)
