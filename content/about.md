@@ -1,6 +1,6 @@
 +++
 title = "About"
-date = "2020-10-30"
+date = "2020-10-28"
 +++
 
 Christian, husband, father, geek.
