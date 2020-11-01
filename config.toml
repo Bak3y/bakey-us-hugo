@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://bakey.us/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
