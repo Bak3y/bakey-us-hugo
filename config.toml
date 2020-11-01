@@ -13,5 +13,8 @@ pygmentscodefences  = true
   disableWebFonts = false
 
 [[menu.main]]
+    name = "Home"
+    url  = "/"
+[[menu.main]]
     name = "About"
     url  = "/about"
