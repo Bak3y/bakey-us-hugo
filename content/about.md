@@ -5,4 +5,4 @@ date = "2020-10-28"
 
 Christian, husband, father, geek.
 
-[Resume](MattBaker_Resume_Latest.pdf)
+[Resume](https://www.bakey.us/MattBaker_Resume_Latest.pdf)
