@@ -1,0 +1,10 @@
+
+spec:
+  name: bakey.us
+  static_sites:
+  - build_command: hugo --destination ./public
+    environment_slug: hugo
+    git:
+      branch: main
+      repo_clone_url: https://github.com/bak3y/bakey-us-hugo.git
+    name: bakey.us
