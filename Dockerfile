@@ -10,7 +10,9 @@ RUN hugo
 
 FROM nginx:1.19.6-alpine
 
-COPY --from=builder /etc/hugo/public /usr/share/nginx/html
+RUN mkdir -p /etc/hugo
+
+COPY --from=builder /etc/hugo/public /etc/hugo/public
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
