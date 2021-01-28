@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.80.0-alpine as builder
+FROM klakegg/hugo:0.80.0-ext-alpine as builder
 
 RUN mkdir -p /etc/hugo
 
@@ -6,7 +6,7 @@ WORKDIR /etc/hugo
 
 COPY . .
 
-RUN hugo
+RUN hugo -v
 
 FROM nginx:1.19.6-alpine
 
