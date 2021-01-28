@@ -28,6 +28,6 @@ jobs:
         uses: ripplr-io/docr-docker-publish@v1
         with: 
           # Image path in the format registry-name/image-name
-          image_path: registry.digitalocean.com/bakey-us-hugo/website
+          image_path: bakey-us-hugo/website
           # Number of characters from the commit SHA
           sha_size: 8 # optional, default is 8
